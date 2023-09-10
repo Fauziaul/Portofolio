@@ -26,7 +26,9 @@
                 </ul>
             </div>
             <div class="nav-button">
+            <a href="https://drive.google.com/file/d/1AixYTCIWPTx91bax3nPx_9hYn985fHPb/view?usp=sharing" target="_blank">
                 <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+</a>
             </div>
             <div class="nav-menu-btn">
                 <i class="uil uil-bars" onclick="myMenuFunction()"></i>

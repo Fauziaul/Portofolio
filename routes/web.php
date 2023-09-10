@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\BtnController;
 
 
 /*
@@ -14,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/dashboard', function () {
+Route::get('/', function () {
     return view('layouts.front');
-})->name('dashboard');
+})->name('/');
 
 
 Route::get('/thankyou', function () {
@@ -24,3 +26,4 @@ Route::get('/thankyou', function () {
 })->name('thankyou');
 
 Route::get('/back-button-action', 'BtnController@backButtonAction')->name('back.button.action');
+

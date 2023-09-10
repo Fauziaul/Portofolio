@@ -25,7 +25,7 @@
 
           <!-- BTN BACK  -->
             <div class="form-button">
-              <a href="{{ route('dashboard') }}" class="btn">Back</a>
+              <a href="{{ route('/') }}" class="btn">Back</a>
             </div>
 
                             

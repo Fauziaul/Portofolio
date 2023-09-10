@@ -391,6 +391,16 @@ h3{
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.project-container-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 48%;
+    
 }
 .project-box{
     position: relative;
@@ -398,7 +408,7 @@ h3{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30%;
+    
     height: 250px;
     background: var(--color-white);
     border-radius: 20px;
@@ -413,8 +423,13 @@ h3{
 .project-box label{
     font-size: 15px;
     color: #777;
+    width: 48%;
+    margin: 0 10px; /* Mengatur margin kiri dan kanan */
+    text-align: justify; /* Mengatur rata kiri-kanan */
+        
+    
 }
-.project-box::after, .contact-info::after{
+ .contact-info::after{
     content: "";
     position: absolute;
     bottom: -100%;
@@ -669,7 +684,7 @@ footer{
 }
 
 .loader {
-  border-top-color: #ef4444;
+  border-top-color: #00A1AB;
   -webkit-animation: spinner 1.5s linear infinite;
   animation: spinner 1.5s linear infinite;
 }
